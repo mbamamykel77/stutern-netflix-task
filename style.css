@@ -1,0 +1,90 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+  }
+img {
+    width: 100%;
+  }
+.back-image {
+    background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.911)), url(./img/background-1.jpg);
+    width: auto;
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 50px;
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 10px solid grey;
+}
+
+.nav-bar {
+    margin-top: -10px;
+}
+
+.nav-bar img {
+    width: 12%;
+    margin-left: -10px;
+    position: fixed;
+}
+
+.nav-bar button {
+    width: 7%;
+    height: 40px;
+    border: 0px none;
+    border-radius: 5px;
+    margin-left: 85%;
+    margin-top: -50px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+.back-image h1 {
+    font-size: 3.1rem;
+    margin-top: 150px;
+}
+
+.span-1 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.span-2 {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.form-1{
+    font-family: sans-serif;
+
+}
+.form-1 input {
+    width: 35%;
+    height: 58px;
+    padding-left: 20px;
+    border-radius: 2px;
+    /* font-size: 15px; */
+    border: 0px none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.form-1 button{
+    width: 15%;
+    height: 59px;
+    background-color: red;
+    margin-left: -2px;
+    color: white;
+    border-radius: 2px;
+    border: 1px none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
