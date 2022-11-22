@@ -21,13 +21,14 @@ img {
 }
 
 .nav-bar {
-    margin-top: -10px;
+    margin-top: -20px;
+    display: flex;
 }
 
 .nav-bar img {
     width: 12%;
-    margin-left: -10px;
-    position: fixed;
+    margin-right: 75%;
+    margin-left: 35px;
 }
 
 .nav-bar button {
@@ -35,8 +36,6 @@ img {
     height: 40px;
     border: 0px none;
     border-radius: 5px;
-    margin-left: 85%;
-    margin-top: -50px;
     background-color: red;
     color: white;
     font-weight: bold;
@@ -71,10 +70,9 @@ img {
     height: 58px;
     padding-left: 20px;
     border-radius: 2px;
-    /* font-size: 15px; */
     border: 0px none;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .form-1 button{
@@ -87,4 +85,30 @@ img {
     border: 1px none;
     font-size: 20px;
     font-family: sans-serif;
+}
+
+.tv-section {
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+    border-bottom: 8px solid rgb(66, 66, 66);
+}
+
+.tv-section h1 {
+    font-size: 3.1rem;
+    margin-bottom: 20px;
+}
+
+.tv-section p {
+    width: 70%;
+    font-size: 25px;
+}
+
+.tv-section img {
+    width: 80%;
+    margin-left: -20px;
 }
