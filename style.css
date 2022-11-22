@@ -4,6 +4,10 @@
     /* box-sizing: border-box; */
     font-family: sans-serif;
   }
+  a {
+    text-decoration: none;
+    color: white;
+  }
 img {
     width: 100%;
   }
@@ -164,3 +168,37 @@ img {
     width: 70%;
     font-size: 25px;
 }
+
+.watch {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    border-bottom: 8px solid rgb(66, 66, 66);
+
+}
+
+.watch img {
+    width: 90%;
+    margin-top: -50px;
+}
+
+.watch-text {
+    width: 60%;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.watch-text h1 {
+    color: white;
+    font-size: 3.1rem;
+    margin-bottom: 20px;
+}
+
+.watch-text p{
+    color: white;
+    font-size: 25px;
+}
+
