@@ -90,15 +90,16 @@ img {
 .tv-section {
     background-color: black;
     color: white;
-    padding-top: 80px;
+    padding-top: 90px;
     padding-left: 120px;
     display: flex;
     flex-direction: row;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
     border-bottom: 8px solid rgb(66, 66, 66);
 }
 
 .tv-section h1 {
+    margin-top: 30px;
     font-size: 3.1rem;
     margin-bottom: 20px;
 }
@@ -111,4 +112,33 @@ img {
 .tv-section img {
     width: 80%;
     margin-left: -20px;
+}
+
+.download {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+}
+
+.download img {
+    width: 60%;
+}
+
+.download-text {
+    width: 60%;
+    margin-right: 50px;
+}
+
+.download-text h1 {
+    color: white;
+    font-size: 3.1rem;
+    margin-bottom: 20px;
+}
+
+.download-text p{
+    color: white;
+    font-size: 25px;
 }
