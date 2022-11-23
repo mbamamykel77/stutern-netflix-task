@@ -119,22 +119,23 @@ img {
 }
 
 .download {
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 90px;
     background-color: black;
     display: flex;
     flex-direction: row;
-    padding-left: 120px;
+    padding-left: 30px;
     border-bottom: 8px solid rgb(66, 66, 66);
 
 }
 
 .download img {
-    width: 60%;
+    width: 90%;
 }
 
 .download-text {
-    width: 60%;
+    width: 40%;
+    margin-top: 120px;
     margin-right: 50px;
 }
 
