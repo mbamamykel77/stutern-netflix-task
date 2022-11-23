@@ -202,3 +202,57 @@ img {
     font-size: 25px;
 }
 
+.frequently-asked {
+    background-color: black;
+    color: white;
+    padding: 90px 0px 90px;
+    border-bottom: 8px solid rgb(66, 66, 66);
+
+}
+
+.frequently-asked h1 {
+    color: white;
+    font-size: 3.1rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: row;
+    border: 2px white;
+    width: 55%;
+    height: 40px;
+    padding: 25px 0px 15px 40px;
+    background-color: rgb(49, 49, 49);
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+.accordion p {
+    font-size: 25px;
+    width: 50%;
+}
+
+.accordion img {
+    width: 30px;
+    margin-left: 40%;
+    margin-top: -10px;
+}
+
+.accordion-button {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.accordion-button input {
+    border-bottom: 2px solid orange;
+}
+
+.accordion-p{
+    color: orange;
+    padding-right: 400px;
+    text-align: center;
+}
+
