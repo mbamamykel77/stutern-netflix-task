@@ -1,3 +1,5 @@
 # stutern-netflix-task
-Noticed my link was flaggedd by netlify so i had to modify.
-https://stutern-net-task.netlify.app/
+This is a Netflix landing page clone. An html and css project at Stutern Academy
+
+Below is a hosted link on Netlify.
+https://stutern-nflix-task.netlify.app/
